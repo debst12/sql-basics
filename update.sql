@@ -1,6 +1,6 @@
 -- UPDATE customer
--- SET fax = null
--- WHERE fax != null; 
+-- SET fax = NULL
+-- WHERE fax IS NOT NULL; 
 
 -- UPDATE customer
 -- SET company = 'Self'
@@ -16,4 +16,4 @@
 
 -- UPDATE track
 -- SET composer = 'The darkness around us'
--- WHERE genre_id = 3 AND composer = '';
+-- WHERE genre_id = 3 AND composer IS NOT NULL;
